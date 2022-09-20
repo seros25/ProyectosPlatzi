@@ -1,5 +1,8 @@
 {
     "cSpell.words": [
         "gato"
+    ],
+    "cSpell.enableFiletypes": [
+        "xml"
     ]
 }
