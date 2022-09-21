@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>autocomplete</title>
+</head>
+<body>
+    <main>
+
+        <form action="">
+            <label for="nombre">
+                <span>Ingrese nombre</span>
+                <!-- la etiqueta span es para que el texto quede en la misma linea que el input -->
+                <input type="text" id="nombre" name="nombre" autocomplete="name" required>
+            </label>
+            <br>
+            <label for="email">
+                <span>su correo</span>
+                <input type="email" id="email" name="email" autocomplete="email">
+            </label>
+            <br>
+            <!-- con el atributo autocomplete="email" se le dice al navegador que el campo es un correo -->
+            <label for="celular">
+                <span>celular</span>
+                <input type="number" id="celular" name="celular">
+            </label>
+           <!--  el atributo type se usa para especificar el tipo de dato que se va a ingresar -->
+            <br>
+            <label for="pais">
+                <span>ingresa país</span>
+                <input type="text" id="pais" name="pais">
+            </label>
+            <br>
+            <input type="submit">
+            
+        </form>
+    </main>
+</body>
+</html>

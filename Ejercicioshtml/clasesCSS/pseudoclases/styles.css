@@ -1,0 +1,43 @@
+.main-nav {
+    color: aquamarine;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    list-style: none;/* este atributo quita los puntos de las listas desordenada
+     */
+     padding: auto;/*  espacio interno dimension interna del elemnto */
+    background-color: rgb(207, 151, 203);
+    }
+    .main-nav li {
+    display: inline-block;
+    margin-right: 10px;
+
+    }
+    .main-nav li a {
+        color: white;
+        padding: 5px;
+        border-radius: 10px;
+        text-decoration: none;
+        background-color: salmon;
+    }
+    .main-nav__item--active a {
+        text-shadow: 19px;
+    }
+    /* las pseudoclase usando : hover cambia el color del boton o elemnto al pasar el mouse sobre  */
+    .main-nav li a:hover {
+        background-color: rgb(151, 207, 198);
+        color: salmon;
+    }
+    .main-nav li a:active {
+        background-color: rgb(190, 70, 15);
+        color: salmon;
+    }
+
+    /* seudo elemento */
+
+    .main-nav__item li a::after {
+        content: "°";
+        margin-left: 10px;
+    }
+    .main-nav__item li:last-child a::after {
+        content: "_";
+    }   

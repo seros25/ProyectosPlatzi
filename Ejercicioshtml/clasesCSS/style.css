@@ -1,0 +1,32 @@
+p {
+
+   color:#00ffff;
+   font-size: small;
+    font-family: verdana;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+
+}
+/* clases */
+.parrafo{
+    color:#001fff;
+    font-size: 40px;
+    font-family: verdana;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* ID */
+#texto{
+    color:#00ff0f;
+    font-size: 30px;
+    font-family: verdana;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
